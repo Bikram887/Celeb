@@ -59,6 +59,116 @@
             </div>
         </div>
     </div>
+
+    <!-- Wedding Catagory -->
+    <div class="wedding-catagory">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="wedding-card">
+                        <div class="wedding-content">
+                            <h3>Venues <i class="fa-solid fa-angle-down"></i></h3>
+                            <p>Banquet Halls, Marriage Garden / Lawn</p>
+                        </div>
+                        <figure><img src="assets/images/wedding-catagory-1.jpg" alt=""></figure>
+                    </div>
+                    <div class="catagory-list">
+                        <div class="row">
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="wedding-card">
+                        <div class="wedding-content">
+                            <h3>Venues <i class="fa-solid fa-angle-down"></i></h3>
+                            <p>Banquet Halls, Marriage Garden / Lawn</p>
+                        </div>
+                        <figure><img src="assets/images/wedding-catagory-1.jpg" alt=""></figure>
+                    </div>
+                    <div class="catagory-list">
+                        <div class="row">
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-6">
+                    <div class="wedding-card">
+                        <div class="wedding-content">
+                            <h3>Venues <i class="fa-solid fa-angle-down"></i></h3>
+                            <p>Banquet Halls, Marriage Garden / Lawn</p>
+                        </div>
+
+
+
+
+                        <figure><img src="assets/images/wedding-catagory-1.jpg" alt=""></figure>
+                    </div>
+
+                    <div class="catagory-list">
+                        <div class="row">
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="wedding-card">
+                        <div class="wedding-content">
+                            <h3>Venues <i class="fa-solid fa-angle-down"></i></h3>
+                            <p>Banquet Halls, Marriage Garden / Lawn</p>
+                        </div>
+
+                        <figure><img src="assets/images/wedding-catagory-1.jpg" alt=""></figure>
+                    </div>
+                    <div class="catagory-list">
+                        <div class="row">
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Marriage Garden / Lawns</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"><a href="">Small Function / Party Halls</a></div>
+                            <div class="col-lg-6"><a href="">Kalyana Mandapams</a></div>
+                            <div class="col-lg-6"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    <!-- Wedding Catagory -->
     <!-- dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -->
     <div class="faq-content">
         <div class="container">
