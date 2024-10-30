@@ -5,7 +5,34 @@
 
     <title>Home | Tring</title>
     <?php include "include/header.php" ?>
+    <div class="home-banner m-0" style="background-color: #B153DD1A ;height: 500px">
+        <div class="container">
+            <div class="event-content">
+                <h2 class="text-dark">Drive Revenue With
+                    Your Creator Community</h2>
+                <p class="text-dark">The influencer marketing platform for high-growth ecommerce brands.</p>
+                <div class="buttons">
+                    <button class="btn btn-primary">Get in Touch</button>
+                    <button class="btn btn-secondary">Know More</button>
+                </div>
 
+            </div>
+        </div>
+    </div>
+    <div class="carousel">
+        <!-- Total of 10 images -->
+        <img src="assets/images/scale-img-1.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-2.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-3.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-4.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-5.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-1.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-2.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-3.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-4.jpg" alt="Creator 1" />
+        <img src="assets/images/scale-img-1.jpg" alt="Creator 1" />
+
+    </div>
     <div class="home-banner"
         style="background-image: linear-gradient(rgba(48, 8, 67, 0.8), rgba(48, 8, 67, 0.8)), url('assets/images/home-banner-3.jpg');">
         <div class="container">
@@ -20,6 +47,8 @@
         </div>
     </div>
     <!-- caleb Catagory -->
+
+
     <div class="influencers arrows">
         <div class="container">
             <div class="heading-left">
@@ -28,71 +57,64 @@
             </div>
             <div class="latest-carousel">
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
-                    <h3>Bikram</h3>
-                </div>
-
-                <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
-                </div>
-
-                <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
-
                 <div class="influencers_card">
-                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
+                </div>
+                <div class="influencers_card">
+                    <a href="">
+                        <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
+                        <h3>Bikram</h3>
+                    </a>
                 </div>
             </div>
         </div>
@@ -134,66 +156,65 @@
             </div>
             <div class="latest-carousel">
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
-                    <h3>Corporate Events</h3>
-                </div>
-
-                <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
-
-                    <h3>Product Launches</h3>
-
-                </div>
-
-                <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
-
-                    <h3>Conferences and Seminars</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
-
-                    <h3>Destination Events</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
+                        <h3>Product Launches</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
-
-                    <h3>Award Ceremonies</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
+                        <h3>Conferences and Seminars</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
+                        <h3>Destination Events</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
+                        <h3>Award Ceremonies</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
                 </div>
                 <div class="influencers_card">
-                    <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
-
-                    <h3>Bikram</h3>
-
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
                 </div>
- 
+                <div class="influencers_card">
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
+                </div>
+                <div class="influencers_card">
+                    <a href="">
+                        <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
+                        <h3>Corporate Events</h3>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -390,4 +411,5 @@
 
         </div>
     </div>
+
     <?php include "include/footer.php" ?>

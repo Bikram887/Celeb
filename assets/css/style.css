@@ -461,7 +461,7 @@ footer .copy-right .copy-right-menu ul li {
     width: 100%;
     height: 100%;
     object-fit: fill;
-    border-radius: 100px 100px 0 0;
+    border-radius: 120px 120px 0 0;
 }
 
 /* influencers.event-planner img */
@@ -477,6 +477,10 @@ footer .copy-right .copy-right-menu ul li {
 .influencers .influencers_card {
     margin: 0 12px;
 
+}
+
+.influencers .influencers_card a {
+    width: 100%;
 }
 
 .influencers .influencers_card video {
@@ -597,9 +601,14 @@ footer .copy-right .copy-right-menu ul li {
     flex-wrap: wrap;
 }
 
-.personalized-videos figure {
-    display: flex;
+.star_card {
+    display: flex !important;
+    align-items: center;
     flex-direction: column;
+}
+
+.personalized-videos figure {
+
     width: 130px;
     height: 130px;
     overflow: hidden;
@@ -622,16 +631,6 @@ footer .copy-right .copy-right-menu ul li {
     margin-top: 10px;
 }
 
-.personalized-videos .view-all a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    text-decoration: underline;
-    border: 2px solid black;
-}
 
 /* ======================================================= */
 
@@ -841,7 +840,7 @@ footer .copy-right .copy-right-menu ul li {
 }
 
 .faq-content .question {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
     position: relative;
     background-color: #ff7e7e21;
     padding: 15px 24px;
@@ -856,7 +855,7 @@ footer .copy-right .copy-right-menu ul li {
 .faq-content .question h3::before {
     content: "+";
     margin-right: 10px;
-    font-size: 24px;
+    font-size: 28px;
     color: #ff7e7e;
 }
 
@@ -869,15 +868,30 @@ footer .copy-right .copy-right-menu ul li {
     margin: 10px 0 0 20px;
     font-size: 14px;
     color: #666;
-}
-
-.faq-content .question.open .answer {
-    display: block;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
 }
 
 .faq-content .still-questions {
     margin-top: 40px;
     text-align: center;
+}
+
+.faq-content .question {
+    position: relative;
+    padding-right: 70px;
+    /* Add padding to make space for the shape */
+    overflow: hidden;
+}
+
+
+
+.faq-content .question.open .answer {
+    max-height: 200px;
+    /* Adjust to fit the answer content */
+    opacity: 1;
 }
 
 .faq-content .question::before {
@@ -886,14 +900,16 @@ footer .copy-right .copy-right-menu ul li {
     top: 0;
     right: 0;
     background-color: #FB6D6C;
-    height: 60px;
-    width: 60px;
+    height: 0;
+    width: 0;
+    transition: height 0.5s ease, width 0.5s ease;
+    transform-origin: top right;
     border-radius: 0% 0% 0% 100%;
-    display: none;
 }
 
 .faq-content .question.open::before {
-    display: block;
+    height: 60px;
+    width: 60px;
 }
 
 
@@ -972,8 +988,8 @@ p {
 
 .home-banner .btn-secondary {
     background-color: transparent;
-    border: 2px solid white;
-    color: white;
+    border: 2px solid #FB6D6C;
+    color: #FB6D6C;
 }
 
 .home-banner .btn-secondary:hover {
@@ -996,6 +1012,87 @@ p {
 
 
 /* Index Page */
+
+/* wedding-catagory */
+
+.wedding-catagory {
+    margin-bottom: 50px;
+}
+
+.wedding-catagory .col-lg-6:nth-child(1) .wedding-card {
+    background-color: #F2EDFC;
+}
+
+.wedding-catagory .col-lg-6:nth-child(2) .wedding-card {
+    background-color: #FCFBED;
+}
+
+.wedding-catagory .col-lg-6:nth-child(3) .wedding-card {
+    background-color: #FCEDF5;
+}
+
+.wedding-catagory .col-lg-6:nth-child(4) .wedding-card {
+    background-color: #EDFCF2;
+}
+
+.wedding-catagory .col-lg-6 {
+    margin-bottom: 20px;
+
+}
+
+.wedding-catagory p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.wedding-catagory .wedding-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    border-radius: 24px;
+    position: relative;
+}
+
+.wedding-catagory .wedding-card figure {
+    margin: 0;
+    height: 100%;
+    width: 50%;
+}
+
+.wedding-catagory .wedding-card figure img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 24px 24px 0;
+}
+
+
+.wedding-catagory .catagory-list {
+    /* background-color: #ff7e7e21; */
+    padding: 20px;
+    display: none;
+}
+
+.wedding-catagory .catagory-list a {
+    margin: 10px 0;
+}
+
+.wedding-catagory .col-lg-6 .wedding-content i {
+    transition: 0.3s;
+}
+
+.wedding-catagory .col-lg-6:hover .catagory-list {
+    display: block;
+}
+
+.wedding-catagory .col-lg-6:hover .wedding-content i {
+    rotate: 180deg;
+}
+
+/* wedding-catagory */
+
 /* something newly written */
 
 @media only screen and (max-width: 991px) {
@@ -1072,76 +1169,157 @@ p {
 
 }
 
-/* wedding-catagory */
 
-.wedding-catagory {
-    margin-bottom: 50px;
+/* .catagory */
+/* FILTER SECTION */
+.filters {
+    border: 1px solid #cccccc69;
+    padding: 15px;
+    position: sticky;
+    top: 0%;
 }
 
-.wedding-catagory .col-lg-6:nth-child(1) .wedding-card {
-    background-color: #F2EDFC;
+.filters h3 {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.wedding-catagory .col-lg-6:nth-child(2) .wedding-card {
-    background-color: #FCFBED;
+.filters h3 .clear {
+    font-size: 12px;
+    color: #007bff;
+    text-decoration: none;
 }
 
-.wedding-catagory .col-lg-6:nth-child(3) .wedding-card {
-    background-color: #FCEDF5;
+.filters h3 .clear:hover {
+    text-decoration: underline;
 }
 
-.wedding-catagory .col-lg-6:nth-child(4) .wedding-card {
-    background-color: #EDFCF2;
-}
-
-.wedding-catagory .col-lg-6 {
+.filters .filter-section {
     margin-bottom: 20px;
+}
+
+.filters .filter-section p {
+    margin-bottom: 5px;
+}
+
+.filters label {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.filters input[type="checkbox"],
+.filters input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* category-card */
+.category-card figure {
+    margin: 0;
+    overflow: hidden;
+    border-radius: 8px;
 
 }
 
-.wedding-catagory p {
+.category-card figure:hover img {
+    transform: scale(1.1);
+}
+
+.category-card figure img {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.category-card .card-body h3 {
+    font-size: 22px;
+
+}
+
+.category-card .card-body p {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
 }
 
-.wedding-catagory .wedding-card {
+/* <style> */
+
+
+.carousel {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding-left: 20px;
-    border-radius: 24px;
     position: relative;
-}
-
-.wedding-catagory .wedding-card figure {
-    margin: 0;
-    height: 100%;
-    width: 50%;
-}
-
-.wedding-catagory .wedding-card figure img {
     width: 100%;
-    height: 100%;
-    border-radius: 0 24px 24px 0;
+    height: 600px;
+    /* Height of the carousel */
+    overflow: hidden;
+    /* Hide overflowing images */
+    margin-bottom: 50px;
 }
 
-
-.wedding-catagory .catagory-list {
-    /* background-color: #ff7e7e21; */
-    padding: 20px;
-    display: none;
+.carousel::before {
+    position: absolute;
+    content: "";
+    background-color: #B153DD1A;
+    width: 100%;
+    height: 50%;
+    top: 0;
+    left: 0;
 }
 
-.wedding-catagory .catagory-list a {
-    margin: 10px 0;
+.carousel img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    will-change: transform, opacity;
+    border-radius: 150px;
 }
 
-.wedding-catagory .col-lg-6:hover .catagory-list {
-    display: block;
+.carousel img {
+    transform: scale(0.8);
+    opacity: 1;
 }
 
-.wedding-catagory .col-lg-6:hover .wedding-content i {
-    rotate: 180deg;
+.carousel img.active {
+    transform: scale(1.3);
+    opacity: 1;
+    z-index: 2;
 }
+
+.carousel img.prev {
+    transform: translateX(-300px) scale(0.9);
+    opacity: 1;
+    z-index: 1;
+}
+
+.carousel img.next {
+    transform: translateX(300px) scale(0.9);
+    opacity: 1;
+    z-index: 1;
+}
+
+.carousel img.prev2 {
+    transform: translateX(-500px) scale(0.85);
+    opacity: 1;
+    z-index: 0;
+}
+
+.carousel img.next2 {
+    transform: translateX(500px) scale(0.85);
+    opacity: 1;
+    z-index: 0;
+}
+
+.carousel img.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+/* </style> */
