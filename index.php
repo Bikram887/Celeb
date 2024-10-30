@@ -7,6 +7,98 @@
     <?php include "include/header.php" ?>
 
     <div class="home-banner"
+        style="background-image: linear-gradient(rgba(48, 8, 67, 0.8), rgba(48, 8, 67, 0.8)), url('assets/images/home-banner-3.jpg');">
+        <div class="container">
+            <div class="event-content">
+                <h2>CELEBRITY ENDORSEMENTS: <span>AMPLIFYING BRANDS AND</span> CAPTIVATING CONSUMERS</h2>
+                <div class="buttons">
+                    <button class="btn btn-primary">Get in Touch</button>
+                    <button class="btn btn-secondary">Know More</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- caleb Catagory -->
+    <div class="influencers arrows">
+        <div class="container">
+            <div class="heading-left">
+                <h2>Celebrity Categories</h2>
+                <p>Enhance your brand’s visibility and credibility with strategic celebrity partnerships.</p>
+            </div>
+            <div class="latest-carousel">
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
+                    <h3>Bikram</h3>
+                </div>
+
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-1.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-2.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-4.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-5.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+
+                <div class="influencers_card">
+                    <figure><img src="assets/images/caleb-cat-3.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- caleb Catagory -->
+    <div class="home-banner"
         style="background-image: linear-gradient(rgba(0, 0, 100, 0.5), rgba(0, 0, 100, 0.5)), url('assets/images/home-banner.jpg');">
         <div class="container">
             <div class="event-content">
@@ -32,6 +124,80 @@
             </div>
         </div>
     </div>
+    <!-- caleb Catagory -->
+    <div class="influencers arrows event-planner">
+        <div class="container">
+            <div class="heading-left">
+                <h2>Event Planner</h2>
+                <p>Explore our expertly crafted events, from corporate gatherings to social celebrations, each designed
+                    to leave a lasting impression.</p>
+            </div>
+            <div class="latest-carousel">
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
+                    <h3>Corporate Events</h3>
+                </div>
+
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
+
+                    <h3>Product Launches</h3>
+
+                </div>
+
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
+
+                    <h3>Conferences and Seminars</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
+
+                    <h3>Destination Events</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
+
+                    <h3>Award Ceremonies</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-1.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-2.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-3.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-4.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+                <div class="influencers_card">
+                    <figure><img src="assets/images/event-planner-5.jpg" alt=""></figure>
+
+                    <h3>Bikram</h3>
+
+                </div>
+ 
+            </div>
+        </div>
+    </div>
+    <!-- caleb Catagory -->
     <div class="home-banner" style="    background-image: linear-gradient(rgba(18, 18, 20, 0.336), rgba(21, 21, 26, 0.5)), url('assets/images/home-banner-2.jpg')
 ;
 ">
@@ -169,6 +335,8 @@
     </div>
     </div>
     <!-- Wedding Catagory -->
+
+
     <!-- dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -->
     <div class="faq-content">
         <div class="container">
