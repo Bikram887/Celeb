@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Event Planning</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+      }
+
+      .about {
+        padding: 50px 0;
+        margin-bottom: 50px;
+        position: relative; /* For absolute positioning context */
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: relative; /* For absolute positioning context */
+      }
+
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -15px;
+        position: relative; /* For absolute positioning context */
+      }
+
+      .col-lg-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+      }
+
+      .col-lg-6:last-child {
+        position: absolute;
+        right: -100px; /* Push image to extreme right */
+        top: 0;
+        height: 100%;
+      }
+
+      h2 {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        color: #00021f;
+      }
+
+      p {
+        color: #696969;
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      .about ul {
+        list-style: none;
+        margin-bottom: 30px;
+      }
+
+      .about ul li {
+        color: #00021f;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        padding-left: 22px;
+        position: relative;
+      }
+
+      .about ul li small {
+        color: #696969;
+        font-size: 16px;
+        font-weight: 400;
+        display: block;
+        margin-top: 10px;
+      }
+
+      .about ul li:before {
+        content: "\f00c";
+        position: absolute;
+        top: 25%;
+        left: 0;
+        font-family: "Font Awesome 6 Free";
+        font-size: 12px;
+        color: #fff;
+        line-height: 8px;
+        font-weight: 800;
+        background: #fb6d6c;
+        border-radius: 50px;
+        width: 18px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-50%);
+      }
+
+      .buttons {
+        display: flex;
+        gap: 15px;
+      }
+
+      .btn {
+        padding: 12px 25px;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        transition: all 0.3s ease;
+      }
+
+      .btn-primary {
+        background-color: #fb6d6c;
+        color: white;
+      }
+
+      .btn-secondary {
+        background-color: transparent;
+        color: #00021f;
+        border: 2px solid #fb6d6c;
+      }
+
+      .btn:hover {
+        opacity: 0.9;
+      }
+
+      figure {
+        height: 100%;
+        width: 100%;
+      }
+
+      figure img {
+        width: 120%; /* Make image slightly wider */
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px; /* Round only left corners */
+      }
+
+      /* Responsive Design */
+      @media (max-width: 992px) {
+        .col-lg-6 {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+
+        .col-lg-6:last-child {
+          position: relative;
+          right: 0;
+          margin-top: 30px;
+          height: 400px; /* Fixed height for mobile */
+        }
+
+        figure img {
+          width: 100%;
+          border-radius: 10px;
+        }
+
+        h2 {
+          font-size: 32px;
+        }
+      }
+
+      @media (max-width: 576px) {
+        .buttons {
+          flex-direction: column;
+        }
+
+        .btn {
+          width: 100%;
+        }
+
+        h2 {
+          font-size: 28px;
+        }
+
+        .col-lg-6:last-child {
+          height: 300px; /* Smaller height for mobile */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>Turning Dreams into Reality, One Event at a Time</h2>
+            <p>
+              New Beginning is dedicated to crafting unforgettable experiences,
+              from breathtaking weddings and seamless event planning to
+              impactful celebrity endorsements. With a passion for creativity,
+              attention to detail, and a commitment to excellence, we bring your
+              vision to life with elegance and style. Every event is a new story
+              waiting to be told, and we're here to make it unforgettable.
+            </p>
+            <ul>
+              <li>
+                Event Planning
+                <small>Tailored experiences for every occasion</small>
+              </li>
+              <li>
+                Wedding Management
+                <small>From intimate gatherings to grand celebrations</small>
+              </li>
+              <li>
+                Celebrity Endorsement
+                <small>Amplify your event with star power</small>
+              </li>
+            </ul>
+            <div class="buttons">
+              <button class="btn btn-primary">Get in Touch</button>
+              <button class="btn btn-secondary">Know More</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <figure>
+              <img
+                src="assets/images/about-us-img.png"
+                alt="Abstract geometric pattern representing event planning concepts"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

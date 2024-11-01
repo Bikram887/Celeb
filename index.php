@@ -5,7 +5,7 @@
 
     <title>Home | Tring</title>
     <?php include "include/header.php" ?>
-    <div class="home-banner m-0" style="background-color: #B153DD1A ;height: 500px">
+    <div class="home-banner home-banner-1 m-0" style="background-color: #B153DD1A">
         <div class="container">
             <div class="event-content">
                 <h2 class="text-dark">Drive Revenue With
@@ -19,8 +19,8 @@
             </div>
         </div>
     </div>
+    <!-- carousel -->
     <div class="carousel">
-        <!-- Total of 10 images -->
         <img src="assets/images/scale-img-1.jpg" alt="Creator 1" />
         <img src="assets/images/scale-img-2.jpg" alt="Creator 1" />
         <img src="assets/images/scale-img-3.jpg" alt="Creator 1" />
@@ -32,6 +32,89 @@
         <img src="assets/images/scale-img-4.jpg" alt="Creator 1" />
         <img src="assets/images/scale-img-1.jpg" alt="Creator 1" />
 
+    </div>
+    <!-- carousel -->
+    <!-- About -->
+    <div class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="about-content">
+                        <h2>Turning Dreams into Reality, One Event at a Time</h2>
+                        <p>New Beginning is dedicated to crafting unforgettable experiences, from breathtaking weddings
+                            and
+                            seamless event planning to impactful celebrity endorsements. With a passion for creativity,
+                            attention to detail, and a commitment to excellence, we bring your vision to life with
+                            elegance
+                            and style. Every event is a new story waiting to be told, and we’re here to make it
+                            unforgettable. </p>
+                        <ul>
+                            <li>Event Planning <small>Tailored experiences for every occasion</small></li>
+                            <li>Event Planning <small>Tailored experiences for every occasion</small></li>
+                            <li>Event Planning <small>Tailored experiences for every occasion</small></li>
+
+                        </ul>
+                        <div class="buttons justify-content-start">
+                            <button class="btn btn-primary">Get in Touch</button>
+                            <button class="btn btn-secondary">Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <figure><img src="assets/images/about-us-img.png" alt=""></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About -->
+
+    <div class="how-it-works">
+        <div class="container">
+
+            <div class="heading-center">
+                <h2>How it works</h2>
+                <p>
+                    Select a celebrity, send your endorsement request, and watch your
+                    brand connect with audiences. Simple, seamless, and impactful.
+                </p>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3">
+                    <div class="step">
+
+                        <figure><img src="assets/images/how-works-1.png" alt=""></figure>
+
+                        <h3>Explore Celebrities</h3>
+                        <p>Browse Profiles &amp; Choose Your Fit</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="step">
+                        <figure><img src="assets/images/how-works-2.png" alt=""></figure>
+
+                        <h3>Send Request</h3>
+                        <p>Reach Out with Your Endorsement Proposal</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="step">
+                        <figure><img src="assets/images/how-works-3.png" alt=""></figure>
+
+                        <h3>Confirm Partnership</h3>
+                        <p>Seal the Deal for Your Endorsement</p>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="step">
+                        <figure><img src="assets/images/how-works-4.png" alt=""></figure>
+
+                        <h3>Boost Your Brand</h3>
+                        <p>Watch Engagement Grow with Celebrity Influence</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="home-banner"
         style="background-image: linear-gradient(rgba(48, 8, 67, 0.8), rgba(48, 8, 67, 0.8)), url('assets/images/home-banner-3.jpg');">
@@ -219,9 +302,8 @@
         </div>
     </div>
     <!-- caleb Catagory -->
-    <div class="home-banner" style="    background-image: linear-gradient(rgba(18, 18, 20, 0.336), rgba(21, 21, 26, 0.5)), url('assets/images/home-banner-2.jpg')
-;
-">
+    <div class="home-banner"
+        style="    background-image: linear-gradient(rgba(18, 18, 20, 0.336), rgba(21, 21, 26, 0.5)), url('assets/images/home-banner-2.jpg');">
         <div class="container">
             <div class="event-content">
                 <h2><small>We plan and manage</small>CORPORATE EVENTS AWARDS LUNCHES PRESS EVENT</h2>
@@ -357,6 +439,67 @@
     </div>
     <!-- Wedding Catagory -->
 
+    <!-- Testimonial -->
+    <div class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="heading-left">
+                        <h2>Hear from Our <br>
+                            Happy Clients</h2>
+                        <p>Here’s what our clients have to say about their experience with New Beginning.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="testimonial-contents">
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                        <div class="testimonial-cards">
+                            <figure><img src="assets/images/right-quote.png" alt=""></figure>
+
+                            <h3>From planning to execution, New Beginning made the entire process seamless and
+                                stress-free.</h3>
+                            <h5>Arjun M <small>February 2024</small></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial -->
 
     <!-- dfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff -->
     <div class="faq-content">

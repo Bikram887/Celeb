@@ -298,6 +298,33 @@ header .mobile-menu {
     border: none;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.btn {
+    padding: 12px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #FB6D6C;
+    color: #FB6D6C;
+}
+
+.btn-secondary:hover {
+    background-color: white;
+    color: #FB6D6C;
+}
+
 .menubar .header-menu li {
     position: relative;
 
@@ -354,6 +381,7 @@ header .mobile-menu {
     color: #000;
 }
 
+/* Footer */
 footer {
     background-color: #06141B;
     padding: 50px 0;
@@ -449,6 +477,8 @@ footer .copy-right .copy-right-menu ul {
 footer .copy-right .copy-right-menu ul li {
     margin-bottom: 0;
 }
+
+/* Footer */
 
 
 /* influencers img */
@@ -839,7 +869,8 @@ footer .copy-right .copy-right-menu ul li {
 
 }
 
-.faq-content .question {
+.faq-content .question,
+.still-questions {
     margin-bottom: 14px;
     position: relative;
     background-color: #ff7e7e21;
@@ -970,32 +1001,7 @@ p {
 
 }
 
-.home-banner .buttons {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
-    margin-bottom: 32px;
-}
 
-.home-banner .btn {
-    padding: 12px 32px;
-    font-size: 16px;
-    font-weight: 600;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.home-banner .btn-secondary {
-    background-color: transparent;
-    border: 2px solid #FB6D6C;
-    color: #FB6D6C;
-}
-
-.home-banner .btn-secondary:hover {
-    background-color: white;
-    color: #FB6D6C;
-}
 
 .home-banner .locations {
     display: flex;
@@ -1008,6 +1014,10 @@ p {
     color: #fff;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+}
+
+.home-banner-1 {
+    height: 500px;
 }
 
 
@@ -1093,81 +1103,6 @@ p {
 
 /* wedding-catagory */
 
-/* something newly written */
-
-@media only screen and (max-width: 991px) {
-
-    .header .menubar,
-    .header .col-lg-2 .btn-primary {
-        display: none;
-    }
-
-    header .mobile-menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50px;
-        height: 50px;
-        border-radius: 5px;
-        position: absolute;
-        top: 0%;
-        right: 14px;
-        color: #000;
-        z-index: 99;
-        font-size: 24px;
-    }
-
-    .menubar ul li .dropdown {
-        padding: 10px;
-        border-radius: 6px;
-        box-shadow: 1px 2px 5px #dddddd82;
-    }
-
-    .offcanvas-body ul .mobile-dropdown {
-        padding: 10px 0 0 20px;
-    }
-
-    .offcanvas-body ul .mobile-dropdown li {
-        border: 0;
-        padding: 0;
-    }
-
-    .menubar ul li:hover ul.dropdown li {
-        width: 100%;
-    }
-
-    .menubar ul li:hover .dropdown li a {
-        color: #666;
-        padding-bottom: 2px;
-        margin-bottom: 2px;
-    }
-
-    .offcanvas-body ul li .dropdown-menu li a.dropdown-item {
-        margin-bottom: 0px;
-        color: #000;
-    }
-
-    .influencers .influencers_card {
-        text-align: center;
-    }
-
-    /* Index Page */
-    .home-banner h2 {
-        font-size: 24px;
-        width: 100%;
-    }
-
-    .home-banner .locations .row .col-lg-3 {
-        margin-bottom: 20px;
-    }
-
-    .home-banner .btn {
-        font-size: 12px
-    }
-
-    ;
-
-}
 
 
 /* .catagory */
@@ -1244,8 +1179,7 @@ p {
     overflow: hidden;
 }
 
-/* <style> */
-
+/* carausel Inedx-1 */
 
 .carousel {
     display: flex;
@@ -1254,9 +1188,7 @@ p {
     position: relative;
     width: 100%;
     height: 600px;
-    /* Height of the carousel */
     overflow: hidden;
-    /* Hide overflowing images */
     margin-bottom: 50px;
 }
 
@@ -1322,4 +1254,448 @@ p {
     opacity: 0;
 }
 
-/* </style> */
+/* carausel Inedx-1 */
+
+/* About */
+.about {
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.about .about-content {
+    margin: 100px 0;
+}
+
+.about ul {
+    margin: 40px 0 30px;
+}
+
+.about ul li {
+    color: #00021F;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-left: 22px;
+    position: relative;
+}
+
+.about ul li small {
+    color: #696969;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-top: 10px;
+}
+
+.about ul li:before {
+    content: "\f00c";
+    position: absolute;
+    top: 25%;
+    left: 0;
+    font-family: "Font Awesome 6 Free";
+    font-size: 12px;
+    color: #fff;
+    line-height: 8px;
+    font-weight: 800;
+    background: #FB6D6C;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-50%);
+}
+
+.about figure {
+    width: 100%;
+    height: 100%;
+}
+
+.about figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .col-lg-5 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+}
+
+/* About */
+/* Contact */
+
+
+.contact-label {
+    color: #ff6347;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #343a40;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ff6347;
+}
+
+
+.form-check-input:checked {
+    background-color: #ff6347;
+    border-color: #ff6347;
+}
+
+.form-control,
+.form-select {
+    height: 48px;
+}
+
+.terms-link:hover {
+    text-decoration: underline;
+}
+
+.other-contact {
+    color: #FB6D6C;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.email-link {
+    color: #343a40;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.email-link i {
+    color: #FB6D6C;
+}
+
+.contact-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.no-arrow::-webkit-outer-spin-button,
+.no-arrow::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btn-outline-secondary {
+    border-color: #FB6D6C;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #ff6347;
+    color: white;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+}
+
+.form-control-msg {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s;
+}
+
+.form-control-msg:focus {
+    box-shadow: none;
+    border-color: #ff6347;
+}
+
+.form-label {
+    font-weight: 400;
+}
+
+.form-check-label {
+    color: gray;
+}
+
+.form-control-msg::placeholder {
+    padding: 10px;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 768px) {
+    .contact-heading {
+        font-size: 2rem;
+    }
+}
+
+.btn-outline-secondary.active {
+    background-color: #FB6D6C;
+    color: white;
+}
+
+/* Contact */
+
+/* .testimonial */
+.testimonial {
+    margin-bottom: 50px;
+}
+
+.testimonial .row {
+    position: relative;
+}
+
+.testimonial .testimonial-contents {
+    position: unset;
+}
+
+.testimonial .testimonial-cards {
+    padding: 0 40px;
+}
+
+.testimonial .testimonial-cards figure {
+    height: 60px;
+    width: 60px;
+}
+
+.testimonial .testimonial-cards figure img {
+    width: 100%;
+}
+
+.testimonial .testimonial-cards h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.testimonial .testimonial-cards h5 {
+    font-size: 16px;
+}
+
+.testimonial .testimonial-cards h5 small {
+    color: #333;
+    font-size: 16px;
+    display: block;
+}
+
+.testimonial-contents .fa-chevron-left,
+.testimonial-contents .fa-chevron-right {
+    position: absolute;
+    background-color: #FB6D6C;
+    color: #fff;
+    bottom: 0;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.testimonial-contents .fa-chevron-left {
+    left: 0;
+
+}
+
+.testimonial-contents .fa-chevron-right {
+    left: 45px;
+}
+
+/* .testimonial */
+
+@media only screen and (max-width: 991px) {
+    .btn {
+        padding: 12px 30px;
+    }
+
+    .header .menubar,
+    .header .col-lg-2 .btn-primary {
+        display: none;
+    }
+
+    header .mobile-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        border-radius: 5px;
+        position: absolute;
+        top: 0%;
+        right: 14px;
+        color: #000;
+        z-index: 99;
+        font-size: 24px;
+    }
+
+    .menubar ul li .dropdown {
+        padding: 10px;
+        border-radius: 6px;
+        box-shadow: 1px 2px 5px #dddddd82;
+    }
+
+    .offcanvas-body ul .mobile-dropdown {
+        padding: 10px 0 0 20px;
+    }
+
+    .offcanvas-body ul .mobile-dropdown li {
+        border: 0;
+        padding: 0;
+    }
+
+    .menubar ul li:hover ul.dropdown li {
+        width: 100%;
+    }
+
+    .menubar ul li:hover .dropdown li a {
+        color: #666;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+    .offcanvas-body ul li .dropdown-menu li a.dropdown-item {
+        margin-bottom: 0px;
+        color: #000;
+    }
+
+    .influencers .influencers_card {
+        text-align: center;
+    }
+
+    /* Index Page */
+    .home-banner h2 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .home-banner .locations .row .col-lg-3 {
+        margin-bottom: 20px;
+    }
+
+    .home-banner .btn {
+        font-size: 12px;
+    }
+
+    .carousel img {
+        width: 150px;
+        height: 250px;
+    }
+
+    .carousel img.prev {
+        transform: translateX(-140px) scale(0.9);
+
+    }
+
+    .carousel img.next {
+        transform: translateX(140px) scale(0.9);
+
+    }
+
+    .carousel img.prev2 {
+        transform: translateX(-180px) scale(0.85);
+
+    }
+
+    .carousel img.next2 {
+        transform: translateX(180px) scale(0.85);
+
+    }
+
+    /* ...............................Index Banner Height Is Mention Here Don't Place Anywhere Else........................................... */
+    .home-banner {
+        height: 400px;
+    }
+
+    .home-banner-1 {
+        height: 300px;
+    }
+
+    .carousel {
+        height: 350px;
+    }
+
+    .how-it-works .col-lg-3 {
+        margin-bottom: 15px;
+    }
+
+    .about .col-lg-5 {
+        position: unset;
+    }
+
+    .about .about-content {
+        margin: 0;
+    }
+
+    .influencers .influencers_card figure {
+        height: 220px;
+    }
+
+    /* Footer */
+    footer h2,
+    footer h3,
+    footer p,
+    footer a,
+    footer li,
+    footer .copy-right .copy-right-menu {
+        text-align: center;
+    }
+
+    footer .copy-right {
+        flex-direction: column;
+    }
+
+    .w-30 {
+        width: 100%;
+    }
+
+    footer .copy-right .copy-right-menu {
+        align-items: center;
+    }
+
+    footer .copy-right .follow-us .social-media ul {
+        justify-content: center;
+    }
+
+    .testimonial-contents .fa-chevron-right {
+        left: 85% !important;
+    }
+
+    .testimonial-contents .fa-chevron-left {
+        left: 72% !important;
+    }
+
+    /* Footer */
+    /* Contact  */
+    .card {
+        padding: 20px;
+    }
+
+    /* Contact  */
+
+}

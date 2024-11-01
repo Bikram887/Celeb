@@ -36,19 +36,19 @@
                     <h3>Follow us on</h3>
                     <div class="social-media">
                         <ul>
-                            <li><a href="">
+                            <li><a href="https://www.instagram.com/">
                                     <figure><img src="assets/images/instagram.png" alt="instagram"></figure>
                                 </a></li>
-                            <li><a href="">
+                            <li><a href="https://www.facebook.com/">
                                     <figure><img src="assets/images/facebook.png" alt="facebook"></figure>
                                 </a></li>
-                            <li><a href="">
+                            <li><a href="https://x.com/">
                                     <figure><img src="assets/images/x.png" alt="x"></figure>
                                 </a></li>
-                            <li><a href="">
+                            <li><a href="https://www.linkedin.com/">
                                     <figure><img src="assets/images/linkedIn.png" alt="linkedIn"></figure>
                                 </a></li>
-                            <li><a href="">
+                            <li><a href="https://www.youtube.com/">
                                     <figure><img src="assets/images/you-tube.png" alt="you-tube"></figure>
                                 </a></li>
 
